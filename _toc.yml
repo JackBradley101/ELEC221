@@ -1,0 +1,22 @@
+format: jb-book
+root: index
+parts:
+  - caption: Introduction
+    chapters:
+    - file: intro/signals.md
+    - file: intro/systems.md
+  - caption: Time Domain Analysis
+    chapters:
+    - file: time/impulse_response.md
+    - file: time/convolution.md
+  - caption: Frequency Domain Analysis
+    chapters:
+    - file: frequency/fourier_series.md
+    - file: frequency/fourier_transform.md
+  - caption: Laplace Transform
+    chapters:
+    - file: laplace/laplace_transform.md
+    - file: laplace/transfer_functions.md
+  - caption: Jupyter Notebooks
+    chapters:
+    - file: notebooks/01_signals_introduction.ipynb
