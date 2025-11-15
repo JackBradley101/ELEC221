@@ -3,7 +3,9 @@ author: Jack Bradley
 sphinx:
   config:
     mathjax_path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+    html_static_path: ['_static']
 only_build_toc_files: true
+exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints"]
 execute:
     execute_notebooks: cache
 html:
